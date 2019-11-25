@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import PdfReader from 'rn-pdf-reader-js'
-import { Constants } from 'expo'
+import Constants from 'expo-constants'
 
 export default class App extends React.Component {
   render() {

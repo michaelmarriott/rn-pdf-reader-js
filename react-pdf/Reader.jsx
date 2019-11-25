@@ -193,9 +193,7 @@ class Reader extends Component {
               {this.renderPage(currentPage)}
             </Document>
           </div>
-
-          {!cached && this.renderLoader()}
-
+          
           {numPages && (
             <div className="Reader__container__numbers">
               <div className="Reader__container__numbers__content">
